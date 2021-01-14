@@ -1,6 +1,0 @@
-Use ScrollSpy for Navigation bar
-
-Nav bar & cover photo https://rigorousthemes.com/blog/best-software-developer-portfolio-template-free-paid/ <-- Samuel
-
-data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0"
-

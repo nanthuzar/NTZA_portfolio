@@ -1,5 +1,5 @@
 *{
-    background-color: white;
+    background-color: silver;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
 }
@@ -21,7 +21,7 @@ nav.navbar a, .fa-bars{
 }
 
 nav.navbar a:hover, .fa-bars:hover{
-    color: red;
+    color: green;
     transition: 0.75s;
 }
 
@@ -37,6 +37,14 @@ header.jumbotron h3{
     font-style: bold;
 }
 
+div.jumbotron h4{
+    background: -webkit-radial-gradient(blue, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Domine', serif;
+    /*font-style: bold;*/
+}
+
 .jumbotron_img{
     margin-top: 50px;
 }
@@ -49,7 +57,7 @@ hr.divider{
     width: 30%;
     margin-left: 35%;
     border: 2px solid red;
-    color:red;
+    
 }
 
 div.container h3{
@@ -60,15 +68,35 @@ div.container h3{
     font-style: bold;
 }
 
-.anchor{
-    padding-top: 70px;
+.anchor_about{
+    padding-top: 100px;
+}
+
+.anchor_skill{
+    padding-top: 200px;
+}
+
+.anchor_exp{
+    padding-top: 200px;
+}
+
+.anchor_contact{
+    padding-top: 200px;
+}
+
+div.jumbotron ul{
+    margin-bottom: 0px;
+}
+
+div.jumbotron ul li:hover{
+    transform: scale(1.2);
 }
 
 .gotopbtn{
     position: fixed;
     background: transparent;
-    bottom: 100px;
-    right: 50px;
+    bottom: 40px;
+    right: 40px;
     text-decoration: none;
     text-align: center;
     line-height: 50px;
@@ -78,12 +106,12 @@ div.container h3{
 
 .gotopbtn:hover{
     position: fixed;
-    bottom: 105px;
-    color: red;
+    bottom: 45px;
+    color: green;
 }
 
 footer ul li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 /* #da70d6 = orchid */
