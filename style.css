@@ -1,0 +1,91 @@
+*{
+    background-color: white;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding-top: 65px;
+}
+
+nav.navbar a, .fa-bars{
+    color: purple;
+    font-size: 18px;
+    font-style: bold;
+}
+
+
+.navbar-custom{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav.navbar a:hover, .fa-bars:hover{
+    color: red;
+    transition: 0.75s;
+}
+
+.jumbotron_text{
+    margin-top: 30px;
+}
+
+header.jumbotron h3{
+    background: -webkit-linear-gradient(green, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Domine', serif;
+    font-style: bold;
+}
+
+.jumbotron_img{
+    margin-top: 50px;
+}
+
+div.btn-group a:hover{
+    transform: scale(1.2);
+}
+
+hr.divider{
+    width: 30%;
+    margin-left: 35%;
+    border: 2px solid red;
+    color:red;
+}
+
+div.container h3{
+    background: -webkit-radial-gradient(green, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Domine', serif;
+    font-style: bold;
+}
+
+.anchor{
+    padding-top: 70px;
+}
+
+.gotopbtn{
+    position: fixed;
+    background: transparent;
+    bottom: 100px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 22px;
+}
+
+.gotopbtn:hover{
+    position: fixed;
+    bottom: 105px;
+    color: red;
+}
+
+footer ul li:hover{
+    transform: scale(1.2);
+}
+
+/* #da70d6 = orchid */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Domine', serif; */
