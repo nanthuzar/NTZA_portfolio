@@ -1,11 +1,12 @@
 *{
-    background-color: silver;
+    background-color: black;
     letter-spacing: 2px;
     font-family: 'Poppins', sans-serif;
 }
 
 body{
     padding-top: 65px;
+    position: relative;
 }
 
 nav.navbar a, .fa-bars{
