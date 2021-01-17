@@ -20,6 +20,7 @@
     <!-- Google font - Poppins -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
     <!-- Google font - Domine -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap" rel="stylesheet">
@@ -28,7 +29,7 @@
 
 <body>
     <!-- start of navigation bar -->
-    <nav id="navbar" class="navbar pb-4 navbar-expand-lg fixed-top navbar-custom">
+    <nav id="navbar" class="navbar pb-4 navbar-expand-lg navbar-custom">
         <div class="container">
             <a class="navbar-brand" href="#">Nan Thu Zar Aung</a>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
@@ -37,7 +38,7 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-2 my-2">
-                        <a class="nav-link" href="">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item mx-2 my-2">
                         <a class="nav-link" href="#about">About</a>
@@ -59,7 +60,7 @@
 
     <!-- Cover Photo/ Home -->
     <header class="jumbotron pt-4">
-        <div class="container border-bottom pb-5">
+        <div class="container border-bottom pb-5" id="home">
             <div class="row">
                 <div class="col-12 d-block d-sm-none text-center">
                     <img class="jumbotron_img img-thumbnail rounded-circle img-fluid" src="./image/pp.jpg" width="200px"
@@ -101,12 +102,9 @@
                 <hr class="mt-1 divider"  data-aos="fade-up" data-aos-delay="500">            
             </div>
             <div class="row">
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-12 col-sm-12 col-md-5 col-lg-5 mt-4" data-aos="fade-up" data-aos-delay="400">
                     <h4>Profile</h4>
                     <p class="mt-4">I am from the field of the Information Technology and Computer Science. I have experienced in those field. I always welcome the challenges and find the ways to solve them.</p>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="400">
-                    <h4>About ME</h4>
                     <div class="row mt-4">
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                             <p>Age</p>
@@ -115,7 +113,7 @@
                             <p>26 Year</p>
                         </div>
                     </div>
-                    <div class="row mt-1">
+                    <div class="row">
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                             <p>Religion</p>
                         </div>
@@ -123,7 +121,7 @@
                             <p>Buddhist</p>
                         </div>
                     </div>
-                    <div class="row mt-1">
+                    <div class="row">
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                             <p>Nationality</p>
                         </div>
@@ -131,7 +129,7 @@
                             <p>Myanmar</p>
                         </div>
                     </div>
-                    <div class="row mt-1">
+                    <div class="row">
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                             <p>Address</p>
                         </div>
@@ -140,23 +138,30 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="col-12 col-sm-12 offset-md-2 col-md-5 offset-lg-2 col-lg-5 mt-4" data-aos="fade-up" data-aos-delay="400">
                     <h4>Education Background</h4>
                     <div class="row">
                         <div class="col-4 col-sm-4 col-md-4 col-lg-4 mt-3">
                             <img class="edu_img" src="./image/icon/master_64.png">
                         </div>
                         <div class="col-8 col-sm-8 col-md-8 col-lg-8 mt-3">
-                            <p><strong>M.Eng (Computer Science)</strong><br><small>Year: 2020<br>Asian Institute of Technology, Thailand</small></p>
+                            <p><strong>M.Eng (Computer Science)</strong><br><small>Graduated Year: 2020<br>Asian Institute of Technology, Thailand</small></p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-4 mt-4">
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
                             <img class="edu_img" src="./image/icon/bachelor_64.png">
                         </div>
-                        <div class="col-8 col-sm-8 col-md-8 col-lg-8 mt-4">
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
                             <p>
-                                <strong>B.Eng (Information Technology)</strong><br><small>Year: 2017<br>West Yangon Technological University, Yangon</small></p>
+                                <strong>B.Eng (Information Technology)</strong><br><small>Graduated Year: 2017<br>West Yangon Technological University, Yangon</small></p>
+                        </div>
+                        <div class="col-4 col-sm-4 col-md-4 col-lg-4">
+                            <img class="edu_img" src="./image/icon/school_64.png">
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-8 col-lg-8">
+                            <p>
+                                <strong>High School</strong><br><small>Graduated Year: 2011<br>B.E.H.S (1), South Okkalapa, Yangon</small></p>
                         </div>
                     </div>
                 </div>
@@ -196,8 +201,8 @@
                 <hr class="mt-1 divider">
             </div>
             <div class="row mt-4" data-aos="fade-up" data-aos-delay="400">
-                <div class="col-12 offset-sm-2 col-sm-4 offset-md-2 col-md-4 offset-lg-2 col-lg-4">
-                    <div class="card my-2">
+                <div class="col-12 offset-sm-4 col-sm-4 offset-md-4 col-md-4 offset-lg-4 col-lg-4">
+                    <div class="card my-2 h-100">
                         <div class="card-header text-success bg-dark text-center">
                             Project
                         </div>
@@ -208,18 +213,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
-                    <div class="card my-2">
+<!--                 <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <div class="card my-2 h-100">
                         <div class="card-header text-success bg-dark text-center">
                             Project
                         </div>
-                        <div class="card-body">
+                        <div class="card-body h-100">
                             <small>
                                 <p class="my-3"><strong>Countroguess &copy; 2019</strong><br><small>Android Application Developing Project- Java</small></p>
                             </small>
                         </div>
                     </div>
-                </div>                
+                </div>  -->               
             </div>
         </div>
     </div>
@@ -234,7 +239,7 @@
             <div class="row text-center" data-aos="fade-up" data-aos-delay="400">
                 <p>If you have any contracts, let me know!</p>
             </div>
-            <div class="row text-center my-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="row text-center mt-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="col-12 col-sm-6 offset-md-2 col-md-4 offset-lg-2 col-lg-4">
                     <div class="card my-2">
                         <div class="card-header text-success bg-dark">
@@ -262,7 +267,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center py-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="row text-center pb-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="col-12 offset-sm-3 col-sm-6 offset-md-4 col-md-4 offset-lg-4 col-lg-4">
                     <div class="card my-2">
                         <div class="card-header text-success bg-dark">
@@ -305,6 +310,7 @@
     <a class="gotopbtn" href="#"><i class="fas fa-chevron-up"></i></a>
 
     <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
     <!-- JQuery -->
     <script type="text/javascript" src="./jquery.min.js"></script>
@@ -316,31 +322,17 @@
     </script>
 
     <script>
-        const divs = document.querySelectorAll("section[id]");
-
-        window.addEventListener("scroll",navHighLighter);
-
-        function navHighLighter(){
-            let scrollY = window.pageYOffset;
-            divs.forEach(current => {
-            const divHeight = current.offsetHeight;
-            const divTop = current.offsetTop - 50;
-            divId = current.getAttribute("id");
-        
-
-        if (
-            scrollY > sectionTop &&
-            scrollY <= sectionTop + sectionHeight
-        ){
-            document.querySelector("#navbar a[href*=" + divId + "]").classList.add("active");
-        } else {
-            document.querySelector("#navbar a[href*=" + divId + "]").classList.remove("active");
-         }
-  });
-}    
+        $('.navbar-collapse a').click(function(){
+            $(".navbar-collapse").collapse('hide');
+        });
     </script>
 
-    <!-- <hr class="mt-3 divider"> -->
+    <script>
+
+</script>
+
+
+    
 </body>
 
 </html>

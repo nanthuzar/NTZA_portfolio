@@ -1,12 +1,12 @@
 *{
     background-color: silver;
-    letter-spacing: 2px;
+   /* letter-spacing: 1px;*/
     font-family: 'Poppins', sans-serif;
 }
 
 body{
-    padding-top: 65px;
     position: relative;
+    overflow: auto
 }
 
 nav.navbar a, .fa-bars{
@@ -22,6 +22,11 @@ nav.navbar a, .fa-bars{
 }
 
 nav.navbar a:hover, .fa-bars:hover{
+    color: green;
+    transition: 0.75s;
+}
+
+.active{
     color: green;
     transition: 0.75s;
 }
@@ -74,7 +79,7 @@ div.container h3{
 }
 
 .anchor_skill{
-    padding-top: 200px;
+    padding-top: 190px;
 }
 
 .anchor_exp{
